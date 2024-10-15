@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  /* color: #112211; */
+}
+#Landinbanner{
+  background-image: url(assets/banner/banner.jfif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#landingchild{
+  background-image: linear-gradient(#00000000, #00000099);
+}
+#searchflight{
+  box-shadow: 0px 4px 20px 0px #8DD3BB26;
+
+}
+#tripchip{
+  box-shadow: 0px 4px 16px 0px #1122110D;
+
+}
+#FlightLanding{
+  background-image: url(assets/banner/flightsimg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#flightlandinggradient{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(18, 18, 18, 0.75) 48.67%);
+  
+}
+#reviewcard{
+  /* background: #8DD3BB66; */
+  box-shadow: 15px 30px 0px 0px #8DD3BB66;
+
+}
+#FlightFlowNavbar{
+  background:  #FFFFFF;
+  box-shadow: 0px 4px 16px 0px #1122110D;
+  #menu{
+    display: none;
+  }
+  
+
+}
+#top ,#ticketCard ,#FlightDetailTicket ,#bookingchild ,#bookingchild2,#menucard ,#TripMainAtrractionCard,#profileCard,#midBar,#AccountDetail,#FlightTicketHistory,#favouritebar{
+  box-shadow: 0px 4px 16px 0px #1122110D;
+
+
+  
+
+}
+
+#flowbannerimg{
+  background-image: url(assets/banner/flightflowbanner.png);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+ 
+
+}
+#carouselSignup,#carousellogin{
+  background-image: url(assets/banner/signupbanner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#flowbannerimg2{
+  /* background-color: #112211; */
+  margin-top: 24px;
+  background-image: url(assets/banner/flightflowbanner2.png);
+  background-position: center;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+ 
+
+}
+
+#flowbanner{
+  background: linear-gradient(90deg, rgba(0, 35, 77, 0.63) 11.46%, rgba(0, 35, 77, 0) 77.37%);
+  background: linear-gradient(90deg, rgba(0, 35, 77, 0.63) 11.46%, rgba(0, 35, 77, 0) 77.37%);
+  padding-top: 80px;
+  padding-right: 174px;
+  padding-bottom: 120px;
+ padding-left: 80px;
+   
+
+}
+#FlightDetailbanner{
+  background-image: url(assets/logo-icon/DetailPlane.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* #SeatsContainer{ */
+  /* border-top-right-radius: 60%;
+  border-top-left-radius: 60%; */
+
+  /* border: 1px solid black; */
+/* } */
+
+.range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px;
+  background: #112211;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.range:hover {
+  opacity: 1;
+}
+
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 25px;
+  background: #8DD3BB;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:560px){
+    #smallpack{
+      div{
+        width: 100%;
+        height: 220px;
+      }
+    }
+}
+@media (max-width:610px){
+  #flowbanner{
+    padding: 0px;
+    div{
+      width: 100%;
+      padding: 30px;
+      
+      
+    }
+  }
+  #fallin{
+    #fall{
+      width: 100%;
+      background-color: #112211;
+      height: 300px;
+      div{
+        width: 95%;
+      }
+    
+    }
+  }
+}
+@media (max-width:660px) {
+  #NavbarChild{
+    width: 60%;
+  }
+ 
+ 
+  #FlightFlowNavbar{
+    #logoOrLink{
+      width: 60%;
+    }
+  }
+  #ticketshow{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #filterSection{
+    /* background-color: #112211; */
+    flex-wrap: wrap;
+    hr{
+      display: none;
+    }
+  }
+  #filter{
+    flex-direction: row;
+    justify-content: center;
+  
+    /* background-color: antiquewhite; */
+    /* justify-content: space-between; */
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%;
+    h1{
+      width: 100%;
+    }
+    #priceinput{
+      width: 100% !important;
+      
+    }
+    #ratinginput{
+      width: 100% !important;
+    }
+    #airlines{
+      width: 100% !important;
+    }
+    #Trips{
+      width: 100% !important;
+    }
+  }
+
+  #seatMainContainer{
+    div{
+      width: 100%;
+      gap: 20px;
+      /* background-color: #8DD3BB; */
+    }
+
+    #SeatsContainer{
+      #seatalpha1{
+        justify-content: start;
+        gap: 38px;
+      }
+      #seatalpha2{
+        justify-content: start;
+        gap: 38px;
+      }
+
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+
+
+@media (max-width:740px){
+
+  #airlinename , #airlinename2{
+    flex-wrap: wrap;
+  }
+  #btn{
+    width: 100%;
+    /* background-color: aqua; */
+    a{
+      width: 90%;
+    }
+    #btnchild{
+      min-width:  100% ;
+      /* background-color: red; */
+    }
+  }
+  #btnsec{
+    width: 100%;
+    /* background-color: aqua; */
+    a{
+      width: 90%;
+    }
+    #main2btnsec{
+      min-width:  100% ;
+      /* background-color: red; */
+    }
+  }
+ 
+
+  
+  #tick{
+    #tickimg{
+      width: 100%;
+      justify-content: space-around;
+     
+      
+    }
+  
+  }
+  #air{
+    height: 25px;
+  }
+  #timing2{
+    h2{
+      font-size: 16px;
+    }
+  }
+  #tick2{
+    /* width: 230px; */
+    #log{
+      height: 15px;
+    }
+    h1{
+      font-size: 16px;
+    }
+  }
+  #name{
+    h1{
+      font-size: 20px;
+      
+    }
+  }
+  #tickimgsec{
+    width: 100%;
+    /* background-color: #112211; */
+  }
+  
+}
+@media (max-width:970px) {
+  #menuMan{
+    display: block;
+  }
+  #LogORSignOrProfile{
+    display: none;
+  }
+  #FlightFlowNavbar{
+    #logsignbtn{
+      display: none;
+    }
+    #menu{
+      display: block;
+      padding-left: 30px;
+    }
+  }
+  #formSignup{
+    
+    #carouselSignup{
+      display: none;
+    
+     
+    }
+    #fullFormContainer{
+      width: 90%;
+      margin: 0 auto;
+    }
+    #signupsubmit{
+      width: 560px;
+    }
+  }
+}
+
+
+
+@media (max-width:1000px) {
+  #ticketshow{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #filterSection{
+    /* background-color: #112211; */
+    flex-wrap: wrap;
+    hr{
+      display: none;
+    }
+    #filter{
+      flex-direction: row;
+      justify-content: center;
+      /* background-color: antiquewhite; */
+      /* justify-content: space-between; */
+      gap: 40px;
+      flex-wrap: wrap;
+      width: 100%;
+      h1{
+        width: 100%;
+      }
+      #priceinput{
+        width: 45%;
+      }
+      #ratinginput{
+        width: 45%;
+      }
+      #airlines{
+        width: 45%;
+      }
+      #Trips{
+        width: 45%;
+      }
+    }
+  }
+  #subscribe{
+    #subtext{
+      width: 100vw;
+    
+    }
+    img{
+      display: none;
+    }
+  }
+  #BookingDetailTicket{
+    #bookingchild{
+      width: 100%;
+      /* background-color: #112211; */
+      min-height: 420px;
+    }
+    #bookingchild2{
+      /* flex-direction: row; */
+      height: 450px;
+      width: 100%;
+      gap: 10px;
+    }
+  }
+  #tickimgsec{
+    width: 100%;
+    justify-content: space-around;
+   
+  }
+}
+@media (max-width:1080px){
+  #seatMainContainer{
+    flex-wrap: wrap;
+  }
+  #backpacking{
+    /* background-color: #112211; */
+    flex-direction: column;
+    gap: 0px;
+  }
+  #backpackingchild{
+     width: 100% !important;
+     gap: 20px;
+     height: 380px;
+    
+  }
+    #backpacking{
+      flex-wrap: wrap;
+    }
+    #smallpack{
+      /* flex-wrap: nowrap; */
+      margin-top: 30px;
+      /* justify-content: start; */
+      /* background-color: red; */
+      width: 100%;
+      min-height: 360px;
+      gap: 10px;
+    }
+
+
+    #formSignup{
+    
+      #insideSignup{
+
+        fieldset{
+          width: 270px;
+          /* background-color: #8DD3BB; */
+
+        }
+       
+      }
+      #signupsubmit{
+        width: 560px;
+      }
+    }
+}
+
+@media (max-width:1110px) {
+    #backpacking{
+      #backpackingchild{
+        width: 450px;
+      }
+    }
+}
