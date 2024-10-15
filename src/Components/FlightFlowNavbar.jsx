@@ -14,6 +14,7 @@ import { toast } from 'sonner';
 import { getAuth, signOut } from 'firebase/auth';
 import { useAuthContext } from '../Context/Auth';
 import ProfileCard from './ProfileCard';
+
 function FlightFlowNavbar() {
   const [Display, setDisplay] = useState('hidden')
   const [ProfileCardDisplay, setProfileCardDisplay] = useState('hidden')
