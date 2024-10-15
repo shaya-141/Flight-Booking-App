@@ -4,7 +4,7 @@ import LOGO from "../assets/logo-icon/Group.png";
 import menu from "../assets/logo-icon/menu.png";
 import { Link } from 'react-router-dom';
 import bar from '../assets/logo-icon/bar.png'
-import logout from '../assets/logo-icon/logout.png'
+import Logout from '../assets/logo-icon/Logout.png'
 
 // import blackheart from '../assets/logo-icon/blackheart.png'
 

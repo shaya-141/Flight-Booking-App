@@ -2,7 +2,7 @@ import React from 'react'
 import forward from '../assets/logo-icon/forward.png'
 import profilepic from '../assets/banner/profilepic.png'
 import user from '../assets/logo-icon/user.png'
-import logout from '../assets/logo-icon/logout.png'
+import logout from '../assets/logo-icon/Logout.png'
 import { getAuth, signOut } from 'firebase/auth';
 import { useAuthContext } from '../Context/Auth';
 import { Link, useNavigate } from 'react-router-dom'
