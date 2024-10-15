@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom';
 import bar from '../assets/logo-icon/bar.png'
 import user from '../assets/logo-icon/user.png'
 // import blackheart from '../assets/logo-icon/blackheart.png'
-import logout from '../assets/logo-icon/logout.png'
-import forward from '../assets/logo-icon/forward.png'
+
 import profilepic from '../assets/banner/profilepic.png'
 import blackheart from '../assets/logo-icon/blackheart.png'
 import { toast } from 'sonner';
