@@ -1,7 +1,7 @@
 import React from 'react'
 import locate from '../assets/logo-icon/location.png'
 import heart from '../assets/logo-icon/heart.png'
-import share from '../assets/logo-icon/share.png'
+import share from '../assets/logo-icon/Share.png'
 function TicketDetailName({value,download}) {
   return (
     <section id="airlinename" className='text-[#112211] flex  justify-between items-center w-[90%] m-auto mt-10  gap-2'>
