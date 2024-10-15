@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import airplane from '../assets/logo-icon/airplaneblack.png'
-import wifi from '../assets/logo-icon/wifi.png'
+import wifi from '../assets/logo-icon/Wifi.png'
 import meal from '../assets/logo-icon/meal.png'
 import sit from '../assets/logo-icon/sit.png'
 import timer from '../assets/logo-icon/timer.png'
