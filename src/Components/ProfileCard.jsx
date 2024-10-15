@@ -2,7 +2,7 @@ import React from 'react'
 import forward from '../assets/logo-icon/forward.png'
 import profilepic from '../assets/banner/profilepic.png'
 import user from '../assets/logo-icon/user.png'
-import logout from '../assets/logo-icon/Logout.png'
+import Logout from '../assets/logo-icon/Logout.png'
 import { getAuth, signOut } from 'firebase/auth';
 import { useAuthContext } from '../Context/Auth';
 import { Link, useNavigate } from 'react-router-dom'
@@ -46,7 +46,7 @@ function ProfileCard({ProfileCardDisplay,set}) {
 
             </Link>
             <div className='w-full cursor-pointer flex items-center justify-between'>
-              <h1 onClick={handleSignout} className='font-medium  flex items-center gap-2'><img src={logout} className='h-4' alt="" /> Logout</h1>
+              <h1 onClick={handleSignout} className='font-medium  flex items-center gap-2'><img src={Logout} className='h-4' alt="" /> Logout</h1>
               <img src={forward} className='h-4' alt="" />
             </div>
 
