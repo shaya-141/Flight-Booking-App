@@ -77,7 +77,7 @@ function Landing() {
           <p className='text-[#112211] text-[16px] font-normal mt-5 opacity-[80%]'>Search Flights & Places Hire to our most popular destinations</p>
         </div>
       </div>
-      <div className='w-[85%]  m-auto flex items-center flex-wrap mt-8 gap-3'>
+      {/* <div className='w-[85%]  m-auto flex items-center flex-wrap mt-8 gap-3'>
         {
 
           TripDetailsFromDB.map((trip, index) => {
@@ -86,7 +86,7 @@ function Landing() {
           })
         }
 
-      </div>
+      </div> */}
 
       <div className='w-[full] flex mt-14 justify-center'>
         <FlightsLanding></FlightsLanding>
