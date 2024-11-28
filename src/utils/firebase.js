@@ -11,14 +11,14 @@ import flightDetails from '../utils/Flights'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBSwW7hVBJgDTeIp-hbTzKH3TsTplzohbs",
-    authDomain: "flightticketbookingapp.firebaseapp.com",
-    projectId: "flightticketbookingapp",
-    storageBucket: "flightticketbookingapp.appspot.com",
-    messagingSenderId: "142886191071",
-    appId: "1:142886191071:web:3c5eb6bef4d9210f528e6a",
-    measurementId: "G-ENTY7LFC7W"
-  };
+  apiKey: "AIzaSyDUtJunYviVbQrIKR3dtOfFJYMhXWkmf2I",
+  authDomain: "flightbookinfinal.firebaseapp.com",
+  projectId: "flightbookinfinal",
+  storageBucket: "flightbookinfinal.firebasestorage.app",
+  messagingSenderId: "80806590491",
+  appId: "1:80806590491:web:84905231be03a46b8a60be",
+  measurementId: "G-NKCCPS2KFF"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
