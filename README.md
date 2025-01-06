@@ -113,6 +113,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 **Developer**: Muhammad Shayan  
 **Email**: [mdshayan590@gmail.com](mailto:mdshayan590@gmail.com)  
 **GitHub**: [github.com/your-shaya-141](https://github.com/shaya-141)
+**LinkedIn**: [https://www.linkedin.com/in/muhummad-shayan-44286824a/](https://www.linkedin.com/in/muhummad-shayan-44286824a/)
 
 Feel free to reach out for feedback or collaboration!
 
